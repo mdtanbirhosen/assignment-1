@@ -173,5 +173,8 @@ main{
 }
 .video{
     padding: 32px;
+    
+}
+.i-video{
     border-radius: 16px;
 }
