@@ -1,14 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
 
 /* header style */
-body{
-    max-width: 1440px;
-    margin: 0 auto;
-    font-family: "Azeret Mono", monospace;
 
+header{
+    width: 100%;
 }
 
 .navigation{
+
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -27,7 +26,7 @@ body{
     background-color: white;
 }
 .banner{
-    width: 1440px;
+    width: 100%;
     height: 652px;
     background-image: url('../assets/Hero-bg.png');
     background-size:cover;
@@ -177,4 +176,13 @@ main{
 }
 .i-video{
     border-radius: 16px;
+}
+
+/* target section */
+.target{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    
 }
