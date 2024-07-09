@@ -72,9 +72,13 @@ body{
     margin-bottom: 45px;
 }
 /* main tag started */
+main{
+    width: 90%;
+    margin: 0 auto;
+}
 /* why web development */
 .why{
-    width: 1140px;
+    max-width: 1140px;
     height: 1393px;
     margin: 0 auto;
     margin-top: 74px;
@@ -138,4 +142,36 @@ body{
     margin-top: 32px;
     margin-bottom: 10px;
     
+}
+/* .inspiration text */
+
+.inspiration{
+    width: 852px;
+    height: 113px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 48px;
+    
+}
+.inspiration h2{
+    font-size: 32px;
+    font-weight: bolder;
+}
+.inspiration p{
+    font-size: 16px;
+    
+}
+/* inspiration-video */
+
+
+.inspiration-video{
+    
+    margin: 0 auto;
+    border: 1px solid black;
+    border-radius: 16px ;
+    
+}
+.video{
+    padding: 32px;
+    border-radius: 16px;
 }
