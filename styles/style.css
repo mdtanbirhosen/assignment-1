@@ -244,7 +244,7 @@ main{
     border: 2px solid red;
     height: 400px;
     /* margin: 0 auto; */
-    background-image: url('/assets/handshake.jpg');
+    background-image: url('../assets/handshake.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -279,18 +279,30 @@ main{
     font-size: 16px;
     background-size: cover;
     color: rgb(158, 161, 166);
-    margin-right:  0px;
-    
-    border: 1px solid rgb(219, 220, 222);
+    border-radius: 8px;
+    background-color: white;
+    padding-left: 20px;
 }
 .submit button{
+    background-color: white;
     font-size: 20px;
     font-weight: 600;
     padding: 17px 20px;
-    margin-left: 0px;
+    border-radius: 8px;
+    margin-left: 16px;
+    
 }
 .submit ::placeholder{
     color: rgb(158, 161, 166);
     font-size: 16px;
-    padding: 19px 215px 19px 20px;
+    padding: 19px 215px 19px 0px;
+}
+#footer{
+    margin-top: 80px;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(248, 248, 248);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
