@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
 
 /* header style */
+body{
+    font-family: "Azeret Mono", monospace;
+}
 
 header{
     width: 100%;
@@ -169,6 +172,7 @@ main{
     border: 1px solid black;
     border-radius: 16px ;
     
+    
 }
 .video{
     padding: 32px;
@@ -180,9 +184,113 @@ main{
 
 /* target section */
 .target{
+    height: 460px;
+    width: 100%;
+    margin-top: 150px;
+    margin-bottom: 110px;
     display: flex;
     flex-direction: column;
     text-align: center;
     align-items: center;
     
+
+}
+.box-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    width: 100%;
+}
+.container{
+    width: 450px;
+    height: 299px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    text-align: left;
+    padding: 40px;
+    border-radius: 16px;
+    
+    
+}
+
+
+.container img{
+    width: 56px;
+    height: 56px;
+}
+.container h2{
+    font-size: 24px;
+    font-weight: 900;
+}
+.container p{
+    font-size: 16px;
+}
+.container a{
+    border-bottom: 0px;
+}
+.color-a{
+    background-color: rgb(255, 246, 244);
+}
+.color-b{
+    background-color: rgb(242, 246, 254);
+}
+.color-c{
+    background-color: rgb(255, 253, 242);
+}
+
+/* support style */
+.support{
+    border: 2px solid red;
+    height: 400px;
+    /* margin: 0 auto; */
+    background-image: url('/assets/handshake.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 16px;
+    padding: 48px 64px 48px 64px;
+    color: white;
+    
+}
+.support-container{
+    height: 313px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 64px 48px;
+}
+.support-container h1{
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0 0 16px 0;
+}
+.support-container p{
+    margin-bottom: 24px;
+    margin-top: 0;
+}
+.submit{
+    display: flex;
+}
+.submit input{
+    width: 548px;
+    height: 57px;
+    font-size: 16px;
+    background-size: cover;
+    color: rgb(158, 161, 166);
+    margin-right:  0px;
+    
+    border: 1px solid rgb(219, 220, 222);
+}
+.submit button{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 17px 20px;
+    margin-left: 0px;
+}
+.submit ::placeholder{
+    color: rgb(158, 161, 166);
+    font-size: 16px;
+    padding: 19px 215px 19px 20px;
 }
