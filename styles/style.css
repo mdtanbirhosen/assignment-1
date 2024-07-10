@@ -80,7 +80,7 @@ main{
 }
 /* why web development */
 .why{
-    max-width: 1140px;
+    max-width: 100%;
     height: 1393px;
     margin: 0 auto;
     margin-top: 74px;
@@ -305,9 +305,10 @@ main{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 32px 150px;
+    padding: 15px 150px;
 }
-#footer p{
+.footer-title{
     font-size: 20px;
     font-weight: 700;
+    margin: 32px 0px;
 }
